@@ -1,0 +1,301 @@
+timestamp,level,service,event_type,username,store_id,region,ip_address,result,message,request_id
+2026-09-04T02:55:49Z,INFO,warehouse-wms,login_success,mreyes,store-221,us-west,57.255.198.234,success,user authenticated successfully,c8295d79-93fa-44ba-b127-25df9f9a53ea
+2026-09-04T03:13:23Z,WARN,vendor-portal,login_failure,dnguyen,store-057,us-central,106.192.41.175,failure,invalid credentials provided,6262102f-3899-4ecc-9ba7-2869e02a6f5f
+2026-09-04T03:13:50Z,WARN,vendor-portal,login_failure,admin_rgomez,store-221,us-west,59.57.169.42,failure,invalid credentials provided,c02e9d33-61b1-4ccb-8864-221bd702b81e
+2026-09-04T03:17:58Z,INFO,pos-terminal,login_success,beliot,store-104,us-east,67.71.52.174,success,user authenticated successfully,1c0b4761-12bc-45fe-8851-df1dc5d765d6
+2026-09-04T03:18:55Z,INFO,pos-terminal,mfa_challenge,hkhan,store-309,eu-west,174.154.247.63,success,MFA one-time-passcode sent,7b58fd0d-365b-4647-bfd7-31c1a3f87fb2
+2026-09-04T03:19:53Z,INFO,warehouse-wms,login_success,hkhan,store-104,us-east,16.167.113.166,success,user authenticated successfully,8d8ac218-af1a-41cf-aed9-561e58c7a1df
+2026-09-04T03:21:17Z,WARN,warehouse-wms,mfa_failure,twright,store-309,eu-west,129.147.80.19,failure,MFA code did not match,2e6e9080-acaa-484e-a810-97acc1d98a67
+2026-09-04T03:21:44Z,WARN,ecommerce-admin,login_failure,lchen,warehouse-west,us-west,41.102.71.61,failure,invalid credentials provided,3d1b29d2-7ecd-4cd4-9050-561572017fd8
+2026-09-04T03:31:37Z,WARN,pos-terminal,login_failure,beliot,store-104,us-east,106.214.232.88,failure,invalid credentials provided,41ea397c-b0f1-4b8c-bb5f-764386259314
+2026-09-04T03:36:09Z,INFO,pos-terminal,session_timeout,mreyes,store-221,us-west,94.36.121.72,success,session expired due to inactivity,074e916a-08fa-4a4a-8614-6e09fd968e55
+2026-09-04T03:38:30Z,INFO,ecommerce-admin,login_success,kpatel,warehouse-east,us-east,13.208.47.58,success,user authenticated successfully,78d8ebab-7403-4aa8-8a3d-6a9d14d07cce
+2026-09-04T03:43:02Z,INFO,vendor-portal,password_reset_success,svc-pos-sync,store-309,eu-west,124.165.161.39,success,password reset completed,f7f41d16-5bfa-4d79-a1e8-bedaa7932e34
+2026-09-04T04:04:42Z,INFO,ecommerce-admin,login_success,dnguyen,online,global,56.84.224.12,success,user authenticated successfully,ca9e4917-bb33-4958-a147-d140af50aec5
+2026-09-04T04:08:03Z,WARN,warehouse-wms,login_failure,lchen,online,global,140.250.153.122,failure,invalid credentials provided,58a79993-f1ae-477c-ad35-0f07e7010afd
+2026-09-04T04:10:30Z,WARN,vendor-portal,privileged_access_granted,kpatel,store-221,us-west,157.160.97.196,success,elevated role granted to user,91a465cf-d832-4e6b-946a-0b7f28637afa
+2026-09-04T04:20:09Z,WARN,vendor-portal,login_failure,dnguyen,warehouse-west,us-west,32.205.48.48,failure,invalid credentials provided,27c7574c-6ceb-4371-9fbe-f2fd9b8d548b
+2026-09-04T04:23:21Z,INFO,vendor-portal,login_success,hkhan,online,global,159.73.118.119,success,user authenticated successfully,8b6abc80-c052-4994-bef3-386e10c72057
+2026-09-04T04:25:58Z,INFO,ecommerce-admin,login_success,kpatel,store-104,us-east,172.166.195.153,success,user authenticated successfully,7a501192-fc75-41c8-8729-a9f6fab74b7c
+2026-09-04T04:31:33Z,INFO,warehouse-wms,mfa_challenge,beliot,store-309,eu-west,130.111.126.175,success,MFA one-time-passcode sent,89fe0974-990f-4c05-86ad-9bcc68fc5bf6
+2026-09-04T04:38:44Z,INFO,ecommerce-admin,login_success,twright,online,global,30.167.151.79,success,user authenticated successfully,051bde42-9b3a-42e4-a879-064be04fe441
+2026-09-04T04:39:41Z,INFO,pos-terminal,password_reset_request,agomez,online,global,189.214.112.115,success,password reset requested by user,ad199fac-2bf0-4726-b97e-45ce3a1d6004
+2026-09-04T04:43:11Z,ERROR,pos-terminal,account_locked,svc-pos-sync,warehouse-west,us-west,98.219.189.18,failure,account locked after repeated failed logins,5dc43b41-1a04-4555-8426-2af87cf985e2
+2026-09-04T04:48:42Z,WARN,pos-terminal,mfa_failure,hkhan,warehouse-west,us-west,26.168.48.143,failure,MFA code did not match,85a469f4-307f-4264-8325-e2211c59448f
+2026-09-04T04:49:31Z,INFO,vendor-portal,login_success,admin_rgomez,store-057,us-central,37.220.68.226,success,user authenticated successfully,0509fb4c-3994-42cd-920c-cd8b9adb15ff
+2026-09-04T04:53:14Z,WARN,pos-terminal,login_failure,svc-warehouse-bot,online,global,102.39.57.16,failure,invalid credentials provided,7e802be4-abae-454d-8409-b2ce696a8954
+2026-09-04T04:54:56Z,INFO,pos-terminal,login_success,agomez,warehouse-east,us-east,155.126.20.159,success,user authenticated successfully,00f3e78e-5f5a-48e3-a421-091fa04dfe7f
+2026-09-04T05:07:32Z,INFO,warehouse-wms,password_reset_success,jsmith,warehouse-west,us-west,50.216.174.72,success,password reset completed,03110b30-111f-4c24-920a-835726a3f100
+2026-09-04T05:11:13Z,INFO,ecommerce-admin,role_changed,agomez,store-309,eu-west,95.155.7.55,success,user role changed,8fef7181-63db-4593-9f75-fd7896d2fa05
+2026-09-04T05:18:52Z,INFO,pos-terminal,login_success,svc-pos-sync,warehouse-west,us-west,11.180.152.193,success,user authenticated successfully,bcdea2f0-819e-4b46-84f9-14e7fc3bbe94
+2026-09-04T05:21:48Z,WARN,ecommerce-admin,access_denied,twright,store-057,us-central,188.200.66.153,failure,user lacks permission for requested resource,f1d1fb83-742e-47c4-be01-eabce16905f0
+2026-09-04T05:24:23Z,WARN,warehouse-wms,login_failure,admin_rgomez,store-309,eu-west,118.169.180.180,failure,invalid credentials provided,7c331a22-e2f4-4897-8d71-786c07e338d6
+2026-09-04T05:26:22Z,INFO,ecommerce-admin,mfa_challenge,hkhan,store-221,us-west,164.172.21.212,success,MFA one-time-passcode sent,e0f5fbbe-9a76-454e-8e91-7c579044b2d1
+2026-09-04T05:42:02Z,WARN,vendor-portal,access_denied,lchen,store-309,eu-west,47.148.21.74,failure,user lacks permission for requested resource,e2413719-a436-490a-b206-375e8a65028c
+2026-09-04T05:46:00Z,WARN,ecommerce-admin,login_failure,svc-pos-sync,store-057,us-central,48.31.230.27,failure,invalid credentials provided,e5afd9a2-15c7-42cd-a9fe-a2df69cb1faf
+2026-09-04T05:55:47Z,WARN,warehouse-wms,login_failure,hkhan,store-221,us-west,174.234.73.68,failure,invalid credentials provided,9235d870-cbb4-4a5f-93e2-3fa44e1bd7d1
+2026-09-04T05:56:39Z,INFO,vendor-portal,session_timeout,jsmith,store-057,us-central,185.143.16.46,success,session expired due to inactivity,5279bad1-3e93-462a-8d9a-661db0562549
+2026-09-04T06:05:16Z,INFO,warehouse-wms,login_success,agomez,store-104,us-east,116.115.194.116,success,user authenticated successfully,b5a80310-8573-425f-a97f-0af65e94eb4a
+2026-09-04T06:07:49Z,INFO,pos-terminal,password_reset_request,twright,store-057,us-central,64.146.251.52,success,password reset requested by user,35292674-21ce-416f-aeb0-bd1deca2ee8a
+2026-09-04T06:08:00Z,INFO,warehouse-wms,login_success,mreyes,warehouse-east,us-east,180.216.26.248,success,user authenticated successfully,bb8601d6-8f5c-4cb9-84e5-47be6a21669c
+2026-09-04T06:09:22Z,INFO,pos-terminal,privileged_access_revoked,hkhan,online,global,78.14.92.70,success,elevated role revoked from user,2f8e4cc5-fcf2-4f5f-86c7-0982677c40af
+2026-09-04T06:11:43Z,INFO,vendor-portal,login_success,beliot,online,global,70.83.90.226,success,user authenticated successfully,f6f92798-7435-4300-8c29-ebddcff96ad5
+2026-09-04T06:26:05Z,INFO,vendor-portal,login_success,kpatel,store-057,us-central,68.194.125.128,success,user authenticated successfully,1b28c6ba-00f2-4e9e-b2bd-650411117187
+2026-09-04T06:26:16Z,INFO,pos-terminal,login_success,beliot,warehouse-east,us-east,147.136.174.29,success,user authenticated successfully,60410bce-c323-45a5-8eb4-3e5b33f43eaf
+2026-09-04T06:26:16Z,WARN,warehouse-wms,login_failure,dnguyen,store-104,us-east,150.143.60.33,failure,invalid credentials provided,8d7e7099-6b8d-4093-947c-cc88ddfe7083
+2026-09-04T06:28:51Z,INFO,warehouse-wms,mfa_challenge,hkhan,warehouse-west,us-west,102.98.35.12,success,MFA one-time-passcode sent,03741182-4ede-451b-908e-7747b4e3068d
+2026-09-04T06:31:55Z,WARN,warehouse-wms,access_denied,svc-warehouse-bot,store-057,us-central,174.251.235.44,failure,user lacks permission for requested resource,bf576c37-fdb6-4c80-9091-4615379917d2
+2026-09-04T06:38:27Z,INFO,ecommerce-admin,login_success,admin_rgomez,online,global,93.226.59.175,success,user authenticated successfully,97b25f17-1156-4800-b2df-9d2215c62ed7
+2026-09-04T06:43:26Z,INFO,pos-terminal,login_success,dnguyen,online,global,33.111.119.130,success,user authenticated successfully,5632d26a-1c1c-4986-b138-10a9d05f5baa
+2026-09-04T06:45:12Z,INFO,ecommerce-admin,session_timeout,kpatel,warehouse-east,us-east,46.36.30.43,success,session expired due to inactivity,0af937a0-d328-4211-9469-3fa94574b64a
+2026-09-04T06:47:40Z,INFO,vendor-portal,role_changed,lchen,store-309,eu-west,188.122.196.60,success,user role changed,33783a6d-7530-4915-8752-303ca4c0976c
+2026-09-04T06:48:08Z,WARN,warehouse-wms,login_failure,hkhan,online,global,180.153.53.241,failure,invalid credentials provided,c26cc621-51a6-4057-bd54-8920f086eed2
+2026-09-04T06:53:53Z,INFO,pos-terminal,login_success,agomez,store-104,us-east,134.246.109.222,success,user authenticated successfully,3c6d3c4d-d695-44fa-961b-06eed8b041d7
+2026-09-04T06:54:50Z,INFO,pos-terminal,login_success,kpatel,store-221,us-west,187.78.109.17,success,user authenticated successfully,ea850167-361e-4f3e-bff5-7d83e658e7f2
+2026-09-04T06:55:12Z,INFO,vendor-portal,mfa_challenge,mreyes,store-309,eu-west,120.165.128.7,success,MFA one-time-passcode sent,49b66aa9-f1fd-4383-9282-e460dc8d8c9a
+2026-09-04T06:56:41Z,INFO,ecommerce-admin,login_success,lchen,warehouse-east,us-east,147.201.65.187,success,user authenticated successfully,2112baef-dcca-4e56-81ac-d083b6548d2a
+2026-09-04T06:58:16Z,INFO,warehouse-wms,login_success,beliot,online,global,37.122.124.13,success,user authenticated successfully,bbc2f2b1-798f-4d38-a73b-4ed5571c8c41
+2026-09-04T07:04:12Z,INFO,ecommerce-admin,password_reset_success,agomez,store-221,us-west,80.144.51.214,success,password reset completed,45cb3d0a-1a56-43f0-9de3-9ad9a3510bc7
+2026-09-04T07:08:15Z,INFO,ecommerce-admin,session_timeout,svc-warehouse-bot,store-057,us-central,59.188.225.119,success,session expired due to inactivity,65c09796-7276-49ee-a084-bd50dee519fd
+2026-09-04T07:14:44Z,INFO,ecommerce-admin,login_success,agomez,warehouse-east,us-east,115.169.241.26,success,user authenticated successfully,25b535d9-5281-42fa-97cc-888ee72fe1b6
+2026-09-04T07:15:47Z,INFO,warehouse-wms,mfa_challenge,admin_rgomez,store-309,eu-west,35.58.110.111,success,MFA one-time-passcode sent,3d2f6334-cd4a-4105-ab41-abddd201fbcd
+2026-09-04T07:25:37Z,INFO,pos-terminal,login_success,svc-warehouse-bot,store-309,eu-west,109.191.129.192,success,user authenticated successfully,c29a7ecb-294a-4baf-8d2f-db3f42351a57
+2026-09-04T07:29:36Z,INFO,vendor-portal,login_success,hkhan,store-221,us-west,156.56.97.5,success,user authenticated successfully,720e18c2-6a1c-44ab-bffe-50af46ab4998
+2026-09-04T07:32:51Z,INFO,ecommerce-admin,session_timeout,lchen,store-057,us-central,109.209.173.174,success,session expired due to inactivity,e32f6cb0-cb9b-44d3-b060-bdb183f43b92
+2026-09-04T08:02:37Z,INFO,vendor-portal,login_success,jsmith,online,global,45.170.242.133,success,user authenticated successfully,cd2943a2-e54c-47b5-94dd-9f70a21d5191
+2026-09-04T08:09:31Z,INFO,warehouse-wms,privileged_access_revoked,dnguyen,store-104,us-east,37.221.185.163,success,elevated role revoked from user,c4ec53d8-e314-47dd-92cc-84e971d4e664
+2026-09-04T08:14:02Z,INFO,warehouse-wms,mfa_challenge,beliot,store-221,us-west,157.164.121.78,success,MFA one-time-passcode sent,ea5a1c52-09c2-4b15-9a4d-0d2d8c8a7c3e
+2026-09-04T08:22:55Z,INFO,pos-terminal,mfa_challenge,admin_rgomez,warehouse-east,us-east,193.73.149.110,success,MFA one-time-passcode sent,2206b855-cd5a-4253-a007-bb1226c4c49d
+2026-09-04T08:27:57Z,INFO,warehouse-wms,login_success,admin_rgomez,warehouse-west,us-west,31.217.40.111,success,user authenticated successfully,7a6cf82a-d33f-420b-8227-cf916357ca88
+2026-09-04T08:28:15Z,INFO,vendor-portal,login_success,kpatel,store-221,us-west,190.117.181.19,success,user authenticated successfully,03e4f9cf-5584-413d-b347-8eaa21c2ba4d
+2026-09-04T08:32:06Z,WARN,pos-terminal,mfa_failure,hkhan,store-057,us-central,144.163.213.105,failure,MFA code did not match,97b093c3-98b8-4a67-a28c-db9df0bd4f7a
+2026-09-04T08:35:36Z,INFO,pos-terminal,mfa_challenge,admin_rgomez,store-057,us-central,129.66.44.17,success,MFA one-time-passcode sent,8a2a554f-50b0-43c3-9a63-36b6afff4520
+2026-09-04T08:40:37Z,INFO,pos-terminal,login_success,lchen,store-309,eu-west,92.53.82.85,success,user authenticated successfully,3719dfd4-a7b1-4603-bcfc-97b7b3628cd9
+2026-09-04T08:42:36Z,INFO,vendor-portal,login_success,jsmith,warehouse-west,us-west,66.207.124.79,success,user authenticated successfully,48d49bb5-5e51-4d64-9e9a-7be7caf52760
+2026-09-04T08:46:34Z,INFO,warehouse-wms,mfa_challenge,lchen,store-309,eu-west,194.140.147.32,success,MFA one-time-passcode sent,f9867590-7d62-4017-bd24-3018116104a9
+2026-09-04T08:54:24Z,INFO,ecommerce-admin,password_reset_request,kpatel,online,global,156.242.124.201,success,password reset requested by user,8696783e-2084-4e64-8e57-1627990ea266
+2026-09-04T09:00:46Z,INFO,vendor-portal,mfa_challenge,svc-warehouse-bot,store-221,us-west,108.97.69.222,success,MFA one-time-passcode sent,907ff791-4ba7-4f23-a7db-08360bfaea64
+2026-09-04T09:11:12Z,INFO,pos-terminal,login_success,mreyes,warehouse-west,us-west,28.27.77.39,success,user authenticated successfully,05ed8056-79c0-41f0-bc47-1f5b55f21e10
+2026-09-04T09:16:32Z,INFO,ecommerce-admin,session_timeout,admin_rgomez,store-057,us-central,118.108.102.183,success,session expired due to inactivity,fb5266f1-d8b7-413d-8c81-c1adfb48cf17
+2026-09-04T09:18:03Z,INFO,warehouse-wms,mfa_challenge,svc-pos-sync,warehouse-east,us-east,194.26.245.44,success,MFA one-time-passcode sent,34021382-1492-442a-803d-ab6e20a628fb
+2026-09-04T09:21:35Z,INFO,vendor-portal,login_success,mreyes,store-221,us-west,120.181.216.106,success,user authenticated successfully,35dc3bb5-1e7b-4eb0-a69b-7cd2a6abdc18
+2026-09-04T09:33:47Z,INFO,ecommerce-admin,login_success,admin_rgomez,online,global,110.13.42.165,success,user authenticated successfully,8a5c8522-a1d7-4676-902f-d2078d1f6ba8
+2026-09-04T09:34:35Z,ERROR,pos-terminal,suspicious_login_impossible_travel,hkhan,warehouse-east,us-east,35.31.206.187,failure,login from a location inconsistent with prior session,8246f093-046e-4780-9b6f-f6c2dedaba97
+2026-09-04T09:39:38Z,WARN,vendor-portal,login_failure,jsmith,store-057,us-central,93.93.249.55,failure,invalid credentials provided,33c84216-1379-43f7-bd17-2c7544b82865
+2026-09-04T09:39:47Z,INFO,warehouse-wms,mfa_challenge,svc-warehouse-bot,warehouse-west,us-west,194.218.228.230,success,MFA one-time-passcode sent,dc11bf43-575a-4b49-a362-c385bee4153f
+2026-09-04T09:40:13Z,INFO,ecommerce-admin,login_success,svc-pos-sync,store-057,us-central,193.163.176.250,success,user authenticated successfully,7517d172-b8d3-425b-b2cd-73f49b385eb3
+2026-09-04T09:50:30Z,INFO,ecommerce-admin,password_reset_success,kpatel,store-309,eu-west,176.138.247.120,success,password reset completed,a3f1ea05-4c87-4e6a-96b3-e61ab66ce517
+2026-09-04T09:52:18Z,INFO,warehouse-wms,login_success,kpatel,warehouse-east,us-east,96.151.98.45,success,user authenticated successfully,5e45706d-f11a-41b2-bdf3-64e874c266f2
+2026-09-04T09:56:30Z,INFO,ecommerce-admin,login_success,admin_rgomez,online,global,166.163.83.101,success,user authenticated successfully,17d00493-eb63-4e78-a376-9b5acc36adca
+2026-09-04T09:56:38Z,INFO,pos-terminal,login_success,kpatel,warehouse-east,us-east,177.79.38.121,success,user authenticated successfully,e507b575-ebb0-4265-9a72-3455d56db361
+2026-09-04T10:01:30Z,INFO,warehouse-wms,login_success,dnguyen,store-057,us-central,117.129.41.121,success,user authenticated successfully,1e764691-03a5-4c63-b598-560fb60ec24b
+2026-09-04T10:03:35Z,INFO,warehouse-wms,login_success,twright,store-057,us-central,194.98.161.31,success,user authenticated successfully,a4b27501-ee90-41b8-a058-b414d94fd206
+2026-09-04T10:08:22Z,INFO,ecommerce-admin,privileged_access_revoked,lchen,store-309,eu-west,112.212.48.81,success,elevated role revoked from user,8aa986f6-2073-406a-bbeb-f51e27a057b5
+2026-09-04T10:20:41Z,WARN,vendor-portal,login_failure,beliot,store-221,us-west,124.21.180.158,failure,invalid credentials provided,13424514-f0b1-4636-a111-13f5017720dc
+2026-09-04T10:27:40Z,ERROR,warehouse-wms,suspicious_login_impossible_travel,svc-pos-sync,warehouse-west,us-west,88.30.50.243,failure,login from a location inconsistent with prior session,5bcee84a-d3f0-4a13-a6d2-c35c4312e138
+2026-09-04T10:29:09Z,INFO,vendor-portal,password_reset_success,agomez,store-057,us-central,39.176.220.29,success,password reset completed,b89e2a75-5bc1-4549-97f7-7476a0177cf7
+2026-09-04T10:29:50Z,INFO,warehouse-wms,mfa_challenge,twright,online,global,118.128.233.217,success,MFA one-time-passcode sent,9f78ac7f-f0ec-4a37-8710-64c3dcb56446
+2026-09-04T10:31:21Z,INFO,warehouse-wms,login_success,kpatel,store-309,eu-west,62.210.241.224,success,user authenticated successfully,69ccd406-f1a7-4ef2-b19e-c25481cb9c32
+2026-09-04T10:34:08Z,INFO,pos-terminal,mfa_challenge,svc-warehouse-bot,store-309,eu-west,80.28.180.130,success,MFA one-time-passcode sent,61afb957-327d-4587-9430-9a3d497f6243
+2026-09-04T10:42:14Z,INFO,pos-terminal,password_reset_request,admin_rgomez,online,global,199.100.186.111,success,password reset requested by user,4cadb776-e548-46bd-91b6-6ea2c09b6fe9
+2026-09-04T10:43:17Z,INFO,warehouse-wms,privileged_access_revoked,agomez,store-057,us-central,32.142.230.63,success,elevated role revoked from user,a9829dfa-58a3-4219-b18b-72bea8684056
+2026-09-04T10:44:40Z,INFO,warehouse-wms,login_success,jsmith,warehouse-east,us-east,173.207.186.132,success,user authenticated successfully,953f47cd-d300-42b7-92b5-9c70696571d8
+2026-09-04T10:46:55Z,INFO,warehouse-wms,session_timeout,mreyes,online,global,20.117.108.231,success,session expired due to inactivity,69dbdc55-2a09-49cf-b3df-5c0829b69f59
+2026-09-04T10:54:12Z,WARN,ecommerce-admin,login_failure,mreyes,store-104,us-east,71.98.129.209,failure,invalid credentials provided,407d519a-bb25-475c-a5c2-cb3d3eec7803
+2026-09-04T10:58:29Z,INFO,ecommerce-admin,login_success,svc-warehouse-bot,warehouse-west,us-west,76.194.167.55,success,user authenticated successfully,e8405481-17ad-4346-8f12-e7cf82dbe4d1
+2026-09-04T11:02:32Z,INFO,warehouse-wms,login_success,twright,warehouse-east,us-east,49.242.34.24,success,user authenticated successfully,3da062b9-b2f0-44f2-b2c1-d61625a3749c
+2026-09-04T11:09:52Z,INFO,warehouse-wms,login_success,lchen,store-104,us-east,64.174.248.50,success,user authenticated successfully,4fd303ff-1567-4a3d-8189-12a477911a12
+2026-09-04T11:10:44Z,INFO,vendor-portal,login_success,agomez,store-221,us-west,24.31.160.15,success,user authenticated successfully,f121f204-3b88-4fe0-bfa8-c48292ec6b4b
+2026-09-04T11:15:12Z,WARN,pos-terminal,login_failure,mreyes,warehouse-east,us-east,102.55.231.129,failure,invalid credentials provided,c49e9723-134d-40f8-8948-a8ca82a35f45
+2026-09-04T11:18:58Z,INFO,pos-terminal,login_success,agomez,store-221,us-west,162.17.228.154,success,user authenticated successfully,8df4796e-893e-4c6d-a6f7-dd70f56e00f3
+2026-09-04T11:27:18Z,INFO,vendor-portal,mfa_challenge,jsmith,online,global,182.157.11.102,success,MFA one-time-passcode sent,989ccda8-0af9-47cb-b791-4fa5c17b2201
+2026-09-04T11:28:31Z,WARN,vendor-portal,login_failure,admin_rgomez,store-057,us-central,25.105.215.100,failure,invalid credentials provided,53a2ac5a-08f4-46c0-a788-a85f9d0719dd
+2026-09-04T11:34:08Z,INFO,pos-terminal,session_timeout,beliot,store-221,us-west,115.127.136.41,success,session expired due to inactivity,8112465c-0d5a-4cca-8247-3257d3c8190c
+2026-09-04T11:35:33Z,INFO,vendor-portal,session_timeout,hkhan,store-057,us-central,150.18.232.23,success,session expired due to inactivity,0027150b-f430-4179-aaad-624947a45687
+2026-09-04T11:37:16Z,INFO,warehouse-wms,login_success,beliot,warehouse-east,us-east,123.145.229.60,success,user authenticated successfully,fb6d434e-e23d-4bff-9073-9cd55f981d9d
+2026-09-04T11:37:27Z,WARN,pos-terminal,login_failure,beliot,store-057,us-central,107.197.77.127,failure,invalid credentials provided,5c6d48dd-0647-4604-a993-087d05043e25
+2026-09-04T11:42:40Z,INFO,warehouse-wms,login_success,beliot,store-309,eu-west,42.98.215.171,success,user authenticated successfully,4205c844-b378-48a5-a801-da23efad00da
+2026-09-04T11:43:16Z,INFO,warehouse-wms,login_success,beliot,store-104,us-east,123.227.120.219,success,user authenticated successfully,182db70d-6bbd-473b-940c-237bad15284d
+2026-09-04T11:47:41Z,INFO,warehouse-wms,password_reset_request,mreyes,store-309,eu-west,50.225.212.124,success,password reset requested by user,434449ec-6c2c-4c37-959f-cb864ad7f8c5
+2026-09-04T11:51:20Z,INFO,vendor-portal,login_success,mreyes,store-057,us-central,93.87.235.213,success,user authenticated successfully,cbd1a370-dc94-4251-afc0-bf9117cb8434
+2026-09-04T11:57:28Z,WARN,vendor-portal,login_failure,mreyes,warehouse-east,us-east,123.37.41.83,failure,invalid credentials provided,4f969d73-88d9-4428-8002-de8a0be99c0c
+2026-09-04T11:58:43Z,INFO,pos-terminal,login_success,dnguyen,store-221,us-west,109.135.232.74,success,user authenticated successfully,01bdaf53-09eb-4462-839b-f56fc8eb6ed3
+2026-09-04T12:03:48Z,WARN,ecommerce-admin,login_failure,lchen,warehouse-west,us-west,37.163.123.120,failure,invalid credentials provided,92546af7-a23b-4b9e-a3bd-a0ff27c33a82
+2026-09-04T12:07:24Z,WARN,pos-terminal,login_failure,jsmith,store-309,eu-west,29.160.219.147,failure,invalid credentials provided,f06aa370-b169-455c-aa72-be93fddf7dcb
+2026-09-04T12:12:51Z,INFO,pos-terminal,login_success,admin_rgomez,store-057,us-central,104.134.195.211,success,user authenticated successfully,ba81524f-8bee-4421-a06a-29a9b3bbec14
+2026-09-04T12:15:45Z,INFO,vendor-portal,mfa_challenge,agomez,store-221,us-west,22.25.144.127,success,MFA one-time-passcode sent,ef0d04b9-8789-4840-b676-0efd2abc28ab
+2026-09-04T12:22:52Z,INFO,vendor-portal,password_reset_success,beliot,online,global,164.112.249.57,success,password reset completed,0cc6e0a7-6fbf-4071-b7f1-554e6b5015d1
+2026-09-04T12:30:21Z,INFO,warehouse-wms,role_changed,beliot,store-057,us-central,164.76.170.21,success,user role changed,f01f47de-49e5-481c-b590-4c2fd430f3e1
+2026-09-04T12:46:18Z,INFO,vendor-portal,login_success,svc-warehouse-bot,online,global,12.87.42.128,success,user authenticated successfully,0b84c458-fb43-4d5d-aa84-1fd09947e6b1
+2026-09-04T12:46:33Z,INFO,ecommerce-admin,login_success,svc-pos-sync,online,global,150.0.155.74,success,user authenticated successfully,385f310c-e5ef-4815-a40b-e61c00bcfe10
+2026-09-04T13:04:19Z,INFO,vendor-portal,password_reset_request,beliot,online,global,116.50.250.158,success,password reset requested by user,a0e36d6b-f836-42ef-a2d3-f8bc23868c33
+2026-09-04T13:04:25Z,INFO,warehouse-wms,mfa_challenge,mreyes,store-309,eu-west,145.187.203.81,success,MFA one-time-passcode sent,7823abe6-c3a6-4637-ae96-5d00a1145c9b
+2026-09-04T13:10:51Z,WARN,vendor-portal,login_failure,beliot,store-309,eu-west,108.173.95.128,failure,invalid credentials provided,5b2886de-3d83-4d7f-97dc-e7bcb7043a02
+2026-09-04T13:17:49Z,INFO,ecommerce-admin,login_success,lchen,store-057,us-central,78.36.87.137,success,user authenticated successfully,e76d36e4-2a42-4dec-a7d3-7039fbfb8f84
+2026-09-04T13:22:31Z,INFO,pos-terminal,mfa_challenge,lchen,warehouse-east,us-east,175.183.31.102,success,MFA one-time-passcode sent,8c18e732-b392-40b7-b8bd-3009e84a5738
+2026-09-04T13:24:20Z,INFO,pos-terminal,login_success,mreyes,store-309,eu-west,160.205.40.102,success,user authenticated successfully,04ef8641-9b25-458b-824c-809fca1feb8f
+2026-09-04T13:29:09Z,WARN,vendor-portal,privileged_access_granted,mreyes,store-309,eu-west,194.240.163.235,success,elevated role granted to user,6d5fc206-0e32-4354-8e8e-f5841506ec35
+2026-09-04T13:32:13Z,INFO,ecommerce-admin,login_success,lchen,online,global,77.26.64.190,success,user authenticated successfully,d14b9ea0-63ca-44b2-a089-ebe1b8cb32ff
+2026-09-04T13:39:41Z,INFO,warehouse-wms,session_timeout,twright,store-057,us-central,189.141.5.133,success,session expired due to inactivity,577ae4bd-2ed8-43d8-bc74-45596c28be69
+2026-09-04T13:40:31Z,INFO,warehouse-wms,login_success,dnguyen,warehouse-west,us-west,113.235.124.254,success,user authenticated successfully,d8714a98-fe32-4c8a-bf1f-28766ebc567e
+2026-09-04T13:45:28Z,INFO,ecommerce-admin,mfa_challenge,beliot,store-221,us-west,57.30.17.215,success,MFA one-time-passcode sent,88d107ff-a660-4242-ad53-8f22c9676273
+2026-09-04T13:51:35Z,WARN,warehouse-wms,privileged_access_granted,hkhan,warehouse-east,us-east,70.52.74.66,success,elevated role granted to user,8c032cfe-8b7a-4e2a-a9d4-a6c48ca9d631
+2026-09-04T14:03:26Z,INFO,warehouse-wms,password_reset_request,jsmith,warehouse-west,us-west,147.63.193.21,success,password reset requested by user,f5381591-5ffa-434b-b40a-852db72741e5
+2026-09-04T14:04:33Z,INFO,pos-terminal,login_success,hkhan,online,global,73.224.224.135,success,user authenticated successfully,bd6d9097-8f55-48dc-8505-0e0f4536a2bb
+2026-09-04T14:13:35Z,INFO,pos-terminal,login_success,agomez,store-221,us-west,124.71.216.47,success,user authenticated successfully,165c89b3-825d-4434-90fc-a89b50f7e7bd
+2026-09-04T14:26:15Z,INFO,ecommerce-admin,login_success,svc-pos-sync,store-221,us-west,151.106.110.209,success,user authenticated successfully,2e160c28-48c9-402d-9398-b5ff5d6b76df
+2026-09-04T14:56:39Z,INFO,warehouse-wms,mfa_challenge,mreyes,warehouse-east,us-east,84.153.80.183,success,MFA one-time-passcode sent,43d7bb9c-5a7b-4b1c-a5b9-73d49a8fe76e
+2026-09-04T15:02:15Z,INFO,pos-terminal,password_reset_request,svc-warehouse-bot,store-309,eu-west,98.65.93.197,success,password reset requested by user,b4aac668-0398-4855-b1e5-359a7f14a9c5
+2026-09-04T15:03:03Z,INFO,vendor-portal,login_success,admin_rgomez,warehouse-west,us-west,27.120.147.59,success,user authenticated successfully,3de0aec1-34e6-401c-b40a-70d739fb7720
+2026-09-04T15:07:44Z,WARN,warehouse-wms,access_denied,mreyes,store-057,us-central,113.0.236.106,failure,user lacks permission for requested resource,5663c5d0-7e35-44ee-86bc-c3d6d267e8ad
+2026-09-04T15:07:48Z,INFO,pos-terminal,login_success,svc-pos-sync,store-221,us-west,192.203.39.77,success,user authenticated successfully,3ea29e7b-6b32-4861-bf98-a01fac94c3f7
+2026-09-04T15:08:28Z,INFO,ecommerce-admin,login_success,dnguyen,store-057,us-central,175.153.234.81,success,user authenticated successfully,fea7b264-59aa-4382-8d47-ee3f0a6293d9
+2026-09-04T15:09:34Z,INFO,vendor-portal,login_success,admin_rgomez,online,global,157.97.130.12,success,user authenticated successfully,2227a1ab-d818-446e-99de-d992cbbb42a4
+2026-09-04T15:13:51Z,INFO,vendor-portal,login_success,hkhan,warehouse-east,us-east,142.231.61.64,success,user authenticated successfully,e4b2c4b0-fb6f-441e-a73f-e3fe9c5b70c0
+2026-09-04T15:17:00Z,ERROR,warehouse-wms,account_locked,lchen,store-221,us-west,29.58.99.232,failure,account locked after repeated failed logins,78096b4a-5bc5-4f86-a02a-d605e124a117
+2026-09-04T15:19:09Z,WARN,vendor-portal,login_failure,beliot,warehouse-east,us-east,115.209.37.33,failure,invalid credentials provided,c6560ce0-a315-4ea8-9016-c871ef458fb1
+2026-09-04T15:19:49Z,INFO,warehouse-wms,login_success,jsmith,store-057,us-central,46.205.35.37,success,user authenticated successfully,323c641c-9e92-4782-9e3d-bc2f2ff9fc9c
+2026-09-04T15:22:49Z,WARN,warehouse-wms,login_failure,mreyes,store-309,eu-west,87.206.139.129,failure,invalid credentials provided,bf52346e-e63e-4e42-8d7e-cf1e2e8009a8
+2026-09-04T15:28:07Z,WARN,ecommerce-admin,mfa_failure,jsmith,store-221,us-west,112.168.142.222,failure,MFA code did not match,9da53373-66a8-445b-90a2-5df20812bd4c
+2026-09-04T15:34:49Z,INFO,ecommerce-admin,login_success,svc-warehouse-bot,store-309,eu-west,107.183.151.180,success,user authenticated successfully,7c110898-3673-4beb-85bb-077ecc852940
+2026-09-04T15:40:37Z,WARN,pos-terminal,privileged_access_granted,lchen,store-104,us-east,85.183.191.111,success,elevated role granted to user,5a744bfc-07f8-4fc2-bb50-a7402bf3b278
+2026-09-04T15:42:36Z,WARN,vendor-portal,login_failure,kpatel,warehouse-west,us-west,133.176.170.142,failure,invalid credentials provided,161894e0-d0f3-4ff6-9f1e-a3f72ed9e632
+2026-09-04T15:49:52Z,INFO,pos-terminal,login_success,hkhan,warehouse-west,us-west,12.25.254.214,success,user authenticated successfully,332042c9-d887-4f6c-b9fe-743fa03c9baa
+2026-09-04T15:50:08Z,INFO,warehouse-wms,login_success,dnguyen,warehouse-east,us-east,43.187.139.213,success,user authenticated successfully,6fa8a7fb-6410-42a0-8c62-8ba7503225bc
+2026-09-04T15:53:39Z,INFO,vendor-portal,login_success,svc-warehouse-bot,store-221,us-west,194.134.91.130,success,user authenticated successfully,55ef3551-9492-4298-a027-eef1d4074c06
+2026-09-04T16:02:27Z,INFO,pos-terminal,mfa_challenge,twright,store-104,us-east,37.171.145.117,success,MFA one-time-passcode sent,3496b2ac-5feb-439d-a2b8-ef1132272dec
+2026-09-04T16:05:26Z,INFO,ecommerce-admin,login_success,mreyes,store-057,us-central,117.234.32.29,success,user authenticated successfully,44134835-6ff1-486a-b2f0-7e88e3666861
+2026-09-04T16:06:28Z,INFO,warehouse-wms,mfa_challenge,mreyes,store-057,us-central,64.79.246.58,success,MFA one-time-passcode sent,5c5b5f3e-addd-403b-9d06-23388bc3f660
+2026-09-04T16:07:19Z,INFO,warehouse-wms,login_success,hkhan,store-057,us-central,32.118.19.234,success,user authenticated successfully,a335ec40-b03e-4bea-91fb-a3e1474543c6
+2026-09-04T16:09:36Z,INFO,ecommerce-admin,login_success,lchen,online,global,58.128.70.161,success,user authenticated successfully,7067443e-61d4-41d8-be28-958c1843c802
+2026-09-04T16:16:03Z,INFO,vendor-portal,login_success,hkhan,online,global,66.202.28.2,success,user authenticated successfully,a159f37a-1640-4e2c-94c7-057b6ebeee00
+2026-09-04T16:17:12Z,INFO,vendor-portal,login_success,hkhan,store-104,us-east,77.101.217.30,success,user authenticated successfully,7f6ed20b-7474-4d50-9307-af2846a31d46
+2026-09-04T16:19:16Z,INFO,vendor-portal,login_success,admin_rgomez,online,global,51.102.70.224,success,user authenticated successfully,451bf163-cfea-496e-95f2-53f986812f3a
+2026-09-04T16:26:19Z,WARN,vendor-portal,login_failure,mreyes,store-221,us-west,150.50.25.167,failure,invalid credentials provided,0eed910e-6143-445f-bf71-ec403dff4157
+2026-09-04T16:32:08Z,INFO,ecommerce-admin,login_success,svc-warehouse-bot,store-104,us-east,64.10.25.202,success,user authenticated successfully,d70b0ce1-3fb8-49a9-8c31-60707e80b029
+2026-09-04T16:38:34Z,INFO,vendor-portal,login_success,jsmith,store-309,eu-west,181.207.84.216,success,user authenticated successfully,052f8996-2dfd-4f73-a216-0133312ac63d
+2026-09-04T16:51:25Z,INFO,ecommerce-admin,session_timeout,svc-warehouse-bot,store-057,us-central,134.62.14.250,success,session expired due to inactivity,c86c7e11-86cf-473d-bad2-858484f94654
+2026-09-04T16:51:33Z,INFO,warehouse-wms,password_reset_request,svc-pos-sync,store-057,us-central,12.133.184.178,success,password reset requested by user,c97dba38-f4c9-444e-bb8b-0bb2a25868fb
+2026-09-04T16:55:28Z,INFO,ecommerce-admin,session_timeout,mreyes,store-057,us-central,104.145.80.113,success,session expired due to inactivity,8f8afa94-5859-4e2b-aec5-5282bf5e35f7
+2026-09-04T16:55:51Z,INFO,warehouse-wms,login_success,beliot,online,global,30.168.194.245,success,user authenticated successfully,f9577fd2-ff75-4c1b-a668-1b94b90af4d9
+2026-09-04T16:57:04Z,INFO,warehouse-wms,login_success,dnguyen,warehouse-west,us-west,112.26.99.93,success,user authenticated successfully,76b8ca97-1917-4030-a557-19b3209d27bd
+2026-09-04T17:04:11Z,INFO,ecommerce-admin,login_success,twright,online,global,162.222.176.187,success,user authenticated successfully,e6a3d841-6c29-4ccf-a42e-5715cee97258
+2026-09-04T17:17:46Z,INFO,ecommerce-admin,login_success,hkhan,store-057,us-central,125.189.47.138,success,user authenticated successfully,21bc5ca3-b924-4c31-b2e0-d3159c433753
+2026-09-04T17:18:56Z,INFO,pos-terminal,mfa_challenge,agomez,warehouse-east,us-east,21.216.176.180,success,MFA one-time-passcode sent,35ad3f7f-9829-40e3-97c5-b4a5850cb515
+2026-09-04T17:28:40Z,INFO,pos-terminal,session_timeout,svc-warehouse-bot,warehouse-east,us-east,151.52.63.73,success,session expired due to inactivity,b49c401f-42a2-4e80-b788-3454f119827f
+2026-09-04T17:34:37Z,INFO,ecommerce-admin,mfa_challenge,jsmith,warehouse-west,us-west,71.64.242.172,success,MFA one-time-passcode sent,ce25f395-5655-43bd-b231-c0ac86b33437
+2026-09-04T17:36:17Z,INFO,warehouse-wms,login_success,twright,online,global,86.147.106.177,success,user authenticated successfully,bba93d81-5924-4ca4-b0b9-8bccd33b0287
+2026-09-04T17:40:01Z,INFO,ecommerce-admin,login_success,dnguyen,store-309,eu-west,173.112.166.216,success,user authenticated successfully,0cc23a50-8755-4199-b37e-05211d0fd733
+2026-09-04T17:41:49Z,INFO,ecommerce-admin,login_success,beliot,warehouse-east,us-east,202.54.217.57,success,user authenticated successfully,e9c65b4a-e8e2-42fa-9733-4e57c1eaa026
+2026-09-04T17:51:59Z,INFO,warehouse-wms,login_success,twright,warehouse-west,us-west,146.183.157.67,success,user authenticated successfully,0f4b8952-bd6b-4227-ab83-62ed5acef9e5
+2026-09-04T17:52:10Z,INFO,warehouse-wms,password_reset_request,mreyes,store-309,eu-west,70.139.171.82,success,password reset requested by user,b8cde0cb-ae28-4200-9b76-1afb20ddff0e
+2026-09-04T17:58:36Z,WARN,pos-terminal,login_failure,mreyes,warehouse-east,us-east,50.207.159.177,failure,invalid credentials provided,922cd5a2-763c-4510-b715-fe3d05955a73
+2026-09-04T17:59:16Z,INFO,warehouse-wms,session_timeout,dnguyen,store-057,us-central,18.78.230.243,success,session expired due to inactivity,a2cb9c4e-58d2-424a-b27d-59d79c85e7b2
+2026-09-04T18:01:44Z,INFO,warehouse-wms,login_success,agomez,store-221,us-west,21.125.243.157,success,user authenticated successfully,bc676b06-09fa-4397-babe-d2e1e2b9f75c
+2026-09-04T18:05:49Z,ERROR,warehouse-wms,account_locked,kpatel,warehouse-west,us-west,162.1.141.220,failure,account locked after repeated failed logins,5948b98b-7126-4aa0-835f-79f1cbe10b3a
+2026-09-04T18:13:06Z,INFO,ecommerce-admin,login_success,lchen,store-309,eu-west,58.57.16.208,success,user authenticated successfully,110953fa-9c4b-4f7e-8660-152d4ecfd2b3
+2026-09-04T18:16:57Z,INFO,warehouse-wms,role_changed,agomez,store-104,us-east,107.142.232.163,success,user role changed,7d50062d-6fec-4117-b5b0-0e3be40c524f
+2026-09-04T18:19:55Z,INFO,ecommerce-admin,login_success,mreyes,store-221,us-west,35.19.172.225,success,user authenticated successfully,b25717c0-11a1-453f-a8ad-a9abd7a1d135
+2026-09-04T18:21:25Z,WARN,warehouse-wms,mfa_failure,mreyes,warehouse-east,us-east,176.16.47.104,failure,MFA code did not match,82cbcdd0-5f70-4fdb-88b4-15c5ca7a106c
+2026-09-04T18:23:57Z,INFO,pos-terminal,mfa_challenge,jsmith,store-057,us-central,68.112.3.19,success,MFA one-time-passcode sent,7bbdd044-a235-4e8f-88db-7f7c9f29adb9
+2026-09-04T18:28:20Z,WARN,pos-terminal,access_denied,jsmith,warehouse-west,us-west,128.217.194.211,failure,user lacks permission for requested resource,e9139b5c-0d4a-46c4-8be6-eff3a27cce64
+2026-09-04T18:29:46Z,INFO,vendor-portal,login_success,jsmith,store-057,us-central,111.191.120.99,success,user authenticated successfully,e968a673-26d4-47dc-8802-61a1f755ecc1
+2026-09-04T18:30:50Z,WARN,pos-terminal,login_failure,hkhan,warehouse-east,us-east,127.15.31.123,failure,invalid credentials provided,b7be2c90-c005-4057-8a60-a984330289f9
+2026-09-04T18:35:42Z,INFO,ecommerce-admin,login_success,svc-warehouse-bot,online,global,22.56.78.161,success,user authenticated successfully,fe4109af-7117-4723-90de-59a4506e7431
+2026-09-04T18:47:58Z,INFO,vendor-portal,login_success,beliot,warehouse-west,us-west,31.145.171.24,success,user authenticated successfully,de83cbc8-b5e6-4523-8e8c-c01f0e2c92fd
+2026-09-04T18:54:41Z,INFO,warehouse-wms,mfa_challenge,hkhan,store-221,us-west,77.250.128.232,success,MFA one-time-passcode sent,f12eee63-3bab-45ac-8ce3-29ce05f1f8df
+2026-09-04T18:55:39Z,INFO,vendor-portal,mfa_challenge,svc-pos-sync,warehouse-west,us-west,92.238.226.114,success,MFA one-time-passcode sent,a8eba14d-891e-47e9-a818-d2cc2aa4d00a
+2026-09-04T19:00:53Z,INFO,ecommerce-admin,login_success,hkhan,store-057,us-central,71.88.38.41,success,user authenticated successfully,68f3be48-e079-442e-afcf-e577830c934b
+2026-09-04T19:06:06Z,WARN,vendor-portal,login_failure,admin_rgomez,store-104,us-east,24.232.67.132,failure,invalid credentials provided,afe16966-bb57-4eb5-af89-103cb41b60f5
+2026-09-04T19:08:14Z,INFO,warehouse-wms,password_reset_success,kpatel,store-221,us-west,84.167.61.2,success,password reset completed,5f0a2c4f-6b45-4587-ba43-a9bdc42f5fdc
+2026-09-04T19:11:04Z,INFO,warehouse-wms,login_success,dnguyen,store-057,us-central,66.74.8.67,success,user authenticated successfully,1f84b965-dccc-4b69-a15b-27460403661d
+2026-09-04T19:21:33Z,INFO,pos-terminal,privileged_access_revoked,beliot,online,global,72.52.154.218,success,elevated role revoked from user,03f20444-d5c7-45d7-a629-9a984db80603
+2026-09-04T19:23:52Z,INFO,ecommerce-admin,password_reset_success,kpatel,online,global,177.38.90.244,success,password reset completed,b1871fd6-1460-4636-ac9f-dd9cf8000726
+2026-09-04T19:25:59Z,INFO,warehouse-wms,login_success,hkhan,store-221,us-west,146.47.86.152,success,user authenticated successfully,9ccc9d20-9b2f-4813-8f81-ba7afb856bce
+2026-09-04T19:30:45Z,INFO,warehouse-wms,login_success,lchen,store-221,us-west,13.64.140.12,success,user authenticated successfully,602603d1-6707-4955-9c8a-823b90b43287
+2026-09-04T19:37:26Z,INFO,pos-terminal,login_success,beliot,store-221,us-west,152.123.243.166,success,user authenticated successfully,433e2665-5888-4fc2-950f-b27927dbba5d
+2026-09-04T19:38:42Z,WARN,pos-terminal,mfa_failure,dnguyen,store-057,us-central,164.20.37.49,failure,MFA code did not match,741bce14-56b2-43af-8cc2-bf0a5328a58b
+2026-09-04T19:39:42Z,INFO,pos-terminal,session_timeout,svc-warehouse-bot,warehouse-east,us-east,188.104.203.235,success,session expired due to inactivity,b0584179-22b9-43a4-847f-93ffa2d7083d
+2026-09-04T19:56:37Z,ERROR,ecommerce-admin,account_locked,beliot,store-104,us-east,127.18.150.52,failure,account locked after repeated failed logins,f0687bf2-b1e4-4982-9899-8e46eda741f5
+2026-09-04T20:10:35Z,INFO,vendor-portal,login_success,admin_rgomez,store-104,us-east,41.233.68.206,success,user authenticated successfully,3b98bc96-58ea-4b91-b870-65ac3a016125
+2026-09-04T20:12:06Z,WARN,vendor-portal,login_failure,hkhan,online,global,81.92.223.163,failure,invalid credentials provided,a276a089-428f-47e0-b35d-0d055e46c2b9
+2026-09-04T20:12:22Z,INFO,vendor-portal,session_timeout,kpatel,warehouse-west,us-west,19.203.253.48,success,session expired due to inactivity,11f37b63-565f-4673-afef-db49f6b02c61
+2026-09-04T20:16:29Z,INFO,vendor-portal,mfa_challenge,lchen,online,global,183.135.247.50,success,MFA one-time-passcode sent,e97ed0aa-8d90-4bd2-8c2d-023477c41ed3
+2026-09-04T20:35:21Z,WARN,warehouse-wms,access_denied,svc-warehouse-bot,warehouse-west,us-west,85.173.58.120,failure,user lacks permission for requested resource,154d9255-a086-4243-8a0f-8e1d913ae813
+2026-09-04T20:37:03Z,INFO,warehouse-wms,login_success,svc-pos-sync,store-104,us-east,89.192.203.242,success,user authenticated successfully,17a62d3b-5158-4097-bb19-54f59a0298e1
+2026-09-04T20:39:56Z,WARN,ecommerce-admin,mfa_failure,dnguyen,online,global,148.169.196.194,failure,MFA code did not match,7582d3eb-e617-4a46-bf55-54723fc4303d
+2026-09-04T20:40:59Z,INFO,warehouse-wms,login_success,agomez,warehouse-east,us-east,142.145.40.65,success,user authenticated successfully,b172130e-5345-42c1-8a42-1a81e7451941
+2026-09-04T20:41:54Z,WARN,pos-terminal,login_failure,lchen,online,global,38.185.157.62,failure,invalid credentials provided,d8d83e85-1326-4a29-b67e-cf9c57b61179
+2026-09-04T20:45:19Z,INFO,vendor-portal,login_success,mreyes,online,global,162.239.128.249,success,user authenticated successfully,96f2d074-4af6-4cac-b825-c0b8f8711638
+2026-09-04T20:45:19Z,WARN,pos-terminal,mfa_failure,svc-pos-sync,store-221,us-west,122.17.64.18,failure,MFA code did not match,8ad4069b-5f87-409e-a702-3594f7cf58fb
+2026-09-04T20:46:43Z,WARN,vendor-portal,login_failure,svc-warehouse-bot,online,global,88.254.11.24,failure,invalid credentials provided,dfd88ca9-ec71-4646-893a-98958f4d261a
+2026-09-04T20:47:07Z,INFO,vendor-portal,password_reset_success,twright,store-309,eu-west,173.141.248.161,success,password reset completed,5a6cf995-8ccf-44e6-ba0e-a6b9e41de29e
+2026-09-04T20:50:56Z,INFO,pos-terminal,login_success,mreyes,warehouse-east,us-east,179.217.248.156,success,user authenticated successfully,e3e9ad63-fafb-46e4-a9ef-d0f4f589c03c
+2026-09-04T20:50:57Z,INFO,warehouse-wms,login_success,beliot,store-057,us-central,155.43.26.40,success,user authenticated successfully,db50c676-5526-42be-ade3-0b32948c9601
+2026-09-04T20:55:09Z,INFO,ecommerce-admin,login_success,lchen,warehouse-west,us-west,107.49.183.217,success,user authenticated successfully,781e72f7-fc30-4fb6-b7da-563c3c810c9b
+2026-09-04T21:04:53Z,WARN,pos-terminal,login_failure,admin_rgomez,store-221,us-west,25.247.249.5,failure,invalid credentials provided,048d0dc4-d026-4050-9fe2-f8a75df02cb1
+2026-09-04T21:08:50Z,INFO,warehouse-wms,password_reset_success,kpatel,store-309,eu-west,131.123.115.77,success,password reset completed,d4e8732e-d541-4cbf-aa3f-e5affa3b3c22
+2026-09-04T21:16:48Z,INFO,ecommerce-admin,mfa_challenge,dnguyen,online,global,56.87.89.21,success,MFA one-time-passcode sent,2e7699f2-63ef-416f-97e9-6b6ba102b66d
+2026-09-04T21:18:44Z,WARN,ecommerce-admin,privileged_access_granted,twright,online,global,38.13.67.4,success,elevated role granted to user,abd46e84-499e-4ae8-aa74-06ace5c6a9c3
+2026-09-04T21:19:28Z,INFO,vendor-portal,login_success,admin_rgomez,store-104,us-east,116.68.198.63,success,user authenticated successfully,b25752e8-9854-4845-a943-c64036b24d9e
+2026-09-04T21:21:51Z,INFO,ecommerce-admin,login_success,twright,store-309,eu-west,152.89.218.143,success,user authenticated successfully,357b0be5-902a-4dba-8981-e9f7432d74c9
+2026-09-04T21:27:38Z,INFO,vendor-portal,login_success,agomez,store-057,us-central,108.120.228.193,success,user authenticated successfully,2c45f59f-7c53-4cdc-b93a-786f34e514a2
+2026-09-04T21:29:47Z,WARN,ecommerce-admin,login_failure,admin_rgomez,warehouse-east,us-east,201.219.204.93,failure,invalid credentials provided,8f0f8c0b-c63c-4214-b9fb-e3b3b6fb778f
+2026-09-04T21:34:30Z,INFO,pos-terminal,login_success,kpatel,online,global,131.244.102.194,success,user authenticated successfully,c88e8bba-daf9-409e-9c34-acf6fea60f88
+2026-09-04T21:41:27Z,INFO,warehouse-wms,password_reset_success,mreyes,store-104,us-east,49.139.144.155,success,password reset completed,5b8e3cd0-6214-47dc-97c6-454d94c87693
+2026-09-04T21:49:02Z,WARN,warehouse-wms,login_failure,beliot,store-221,us-west,190.218.4.29,failure,invalid credentials provided,bb29f560-1bb9-48b7-a3f7-e0018dc9c42a
+2026-09-04T21:52:56Z,INFO,vendor-portal,privileged_access_revoked,jsmith,online,global,142.78.155.43,success,elevated role revoked from user,a827fdec-6be1-4cb2-8ca2-48307ff76ce4
+2026-09-04T22:06:54Z,WARN,ecommerce-admin,login_failure,mreyes,warehouse-west,us-west,192.227.44.208,failure,invalid credentials provided,9a41778f-44ee-4275-a94c-9b9559e2dcb1
+2026-09-04T22:07:09Z,INFO,warehouse-wms,login_success,agomez,store-309,eu-west,22.148.196.222,success,user authenticated successfully,3cc7a1a9-7fc0-4e67-8dd7-ab8161795987
+2026-09-04T22:18:19Z,INFO,warehouse-wms,login_success,svc-pos-sync,store-057,us-central,44.244.78.117,success,user authenticated successfully,24f97898-6f29-4af3-909a-084ea66492d2
+2026-09-04T22:24:55Z,INFO,ecommerce-admin,login_success,beliot,store-309,eu-west,104.85.58.200,success,user authenticated successfully,19f0d1f1-4967-4aee-911a-6b32ad477041
+2026-09-04T22:26:57Z,INFO,vendor-portal,privileged_access_revoked,hkhan,store-104,us-east,137.149.139.107,success,elevated role revoked from user,60230230-95e2-4c3d-9e88-dde5d46eda05
+2026-09-04T22:38:24Z,INFO,warehouse-wms,login_success,admin_rgomez,warehouse-west,us-west,81.115.219.217,success,user authenticated successfully,fd2f6554-97f9-446f-9e39-5f9412320a05
+2026-09-04T22:38:40Z,INFO,vendor-portal,role_changed,jsmith,warehouse-west,us-west,66.102.235.90,success,user role changed,26fbf493-9454-4716-8b0f-a30969f75102
+2026-09-04T22:42:21Z,WARN,warehouse-wms,login_failure,hkhan,warehouse-west,us-west,60.78.191.196,failure,invalid credentials provided,e95fdb90-3cad-48e9-9eaf-b7699142e13d
+2026-09-04T23:02:33Z,INFO,pos-terminal,login_success,svc-warehouse-bot,store-057,us-central,103.67.46.233,success,user authenticated successfully,8f745820-43da-4484-b25c-258d3990a363
+2026-09-04T23:03:36Z,INFO,vendor-portal,mfa_challenge,lchen,store-057,us-central,103.73.101.155,success,MFA one-time-passcode sent,4b25953c-426b-41a8-8062-cdfcc1fc7628
+2026-09-04T23:15:18Z,INFO,ecommerce-admin,mfa_challenge,svc-pos-sync,warehouse-east,us-east,15.137.20.196,success,MFA one-time-passcode sent,98fd858f-e980-4573-b4b6-585bc2dbb125
+2026-09-04T23:17:22Z,INFO,vendor-portal,password_reset_request,hkhan,store-104,us-east,35.227.85.178,success,password reset requested by user,e605f53a-28f4-4d35-8f89-b5a71044630f
+2026-09-04T23:17:33Z,INFO,vendor-portal,mfa_challenge,svc-pos-sync,store-309,eu-west,199.21.230.233,success,MFA one-time-passcode sent,72010dc6-8895-4eb7-91c5-6e0cd6b9c9d3
+2026-09-04T23:28:20Z,INFO,pos-terminal,password_reset_success,mreyes,store-309,eu-west,105.66.30.151,success,password reset completed,792f8557-bc34-45f0-a402-0c5a36314d50
+2026-09-04T23:29:44Z,WARN,warehouse-wms,mfa_failure,dnguyen,online,global,94.65.47.166,failure,MFA code did not match,2b705918-0f48-424b-a750-64e10c9fd234
+2026-09-04T23:31:35Z,INFO,ecommerce-admin,session_timeout,svc-warehouse-bot,store-057,us-central,47.223.46.243,success,session expired due to inactivity,1fab2f89-3646-4530-980d-355a35e3c9e0
+2026-09-04T23:35:43Z,INFO,vendor-portal,mfa_challenge,svc-pos-sync,warehouse-east,us-east,90.133.104.172,success,MFA one-time-passcode sent,f8127bef-466d-4186-b941-46a1d56c616a
+2026-09-04T23:36:32Z,INFO,warehouse-wms,login_success,jsmith,store-221,us-west,35.171.74.36,success,user authenticated successfully,d16ad1bc-ae82-4595-8dfa-c72b5c9818e8
+2026-09-04T23:42:10Z,INFO,warehouse-wms,login_success,hkhan,store-309,eu-west,132.109.103.212,success,user authenticated successfully,60fad980-401b-454c-8ec6-1ff5e64effc1
+2026-09-04T23:50:19Z,INFO,ecommerce-admin,role_changed,agomez,warehouse-west,us-west,195.203.187.24,success,user role changed,001581bb-1ca6-46f6-9ec3-cbcd52272a4f
+2026-09-04T23:50:26Z,INFO,ecommerce-admin,privileged_access_revoked,jsmith,online,global,159.75.220.33,success,elevated role revoked from user,c8466c4e-8598-419c-9425-3abd585c571a
+2026-09-04T23:52:26Z,INFO,pos-terminal,login_success,jsmith,warehouse-west,us-west,171.118.34.182,success,user authenticated successfully,3ec130f5-3bb4-45c2-b21e-4d3dc85dd500
+2026-09-04T23:52:44Z,INFO,warehouse-wms,login_success,svc-warehouse-bot,store-309,eu-west,104.146.39.166,success,user authenticated successfully,0ef66f5e-5803-45ea-a6f0-a040f6bb3a43
+2026-09-04T23:55:43Z,INFO,vendor-portal,mfa_challenge,hkhan,store-309,eu-west,193.196.253.103,success,MFA one-time-passcode sent,3bddda85-6074-45b6-b7cc-30a61005818f
+2026-09-04T23:56:20Z,ERROR,pos-terminal,suspicious_login_impossible_travel,svc-pos-sync,store-309,eu-west,35.37.109.130,failure,login from a location inconsistent with prior session,3966de80-9149-4553-84bb-08401739d668
+2026-09-05T00:01:57Z,WARN,warehouse-wms,mfa_failure,lchen,online,global,41.153.158.171,failure,MFA code did not match,b1dcd127-67c6-4c9a-a185-9b2535125af5
+2026-09-05T00:02:18Z,INFO,warehouse-wms,login_success,dnguyen,warehouse-west,us-west,139.136.1.73,success,user authenticated successfully,3fc81b7f-f045-4fa2-bc18-f5b14cf53887
+2026-09-05T00:03:09Z,WARN,warehouse-wms,login_failure,hkhan,store-057,us-central,183.169.14.30,failure,invalid credentials provided,764ed8aa-bc96-41cb-9826-3802b8bcdea9
+2026-09-05T00:15:31Z,INFO,pos-terminal,login_success,svc-warehouse-bot,store-104,us-east,114.92.69.197,success,user authenticated successfully,9dff9e64-4462-4763-be85-1654491667e1
+2026-09-05T00:16:43Z,WARN,vendor-portal,mfa_failure,twright,warehouse-east,us-east,39.71.23.243,failure,MFA code did not match,dbe2b777-c1e8-4bae-90cc-fa8e66603694
+2026-09-05T00:18:45Z,INFO,ecommerce-admin,mfa_challenge,agomez,online,global,179.244.192.81,success,MFA one-time-passcode sent,fec2c054-096f-4936-a42a-3cfa966bdbb3
+2026-09-05T00:28:16Z,INFO,ecommerce-admin,login_success,mreyes,online,global,134.35.64.33,success,user authenticated successfully,d36f1079-c107-4da5-8674-9bd2e35ed526
+2026-09-05T00:32:37Z,WARN,ecommerce-admin,privileged_access_granted,jsmith,warehouse-west,us-west,112.137.33.55,success,elevated role granted to user,20cdf968-dae5-4cbc-8a9f-704c3c693910
+2026-09-05T00:35:42Z,INFO,warehouse-wms,mfa_challenge,kpatel,warehouse-east,us-east,202.251.52.224,success,MFA one-time-passcode sent,83907aef-1d84-4ec2-b767-8ff0baa9136d
+2026-09-05T00:36:24Z,INFO,ecommerce-admin,mfa_challenge,lchen,online,global,137.226.26.53,success,MFA one-time-passcode sent,1df8a5c1-91c0-4d25-ae92-792cab34e92a
+2026-09-05T00:43:50Z,INFO,pos-terminal,privileged_access_revoked,dnguyen,warehouse-east,us-east,21.1.170.198,success,elevated role revoked from user,6a27aa67-8a30-4f8f-9324-8f1568ccf962
+2026-09-05T00:45:16Z,INFO,vendor-portal,login_success,admin_rgomez,online,global,140.41.95.18,success,user authenticated successfully,d97e3893-eaa2-4c8a-8cee-1df4ca1649e5
+2026-09-05T00:48:28Z,INFO,ecommerce-admin,login_success,jsmith,warehouse-east,us-east,69.111.28.36,success,user authenticated successfully,9d015e75-f1cc-4ec6-bb37-976ca4cb0573
+2026-09-05T00:57:57Z,WARN,warehouse-wms,privileged_access_granted,lchen,online,global,54.237.245.162,success,elevated role granted to user,aec1efd8-2fd0-4774-9cc6-b77ed36ca767
+2026-09-05T00:59:07Z,INFO,ecommerce-admin,session_timeout,lchen,store-104,us-east,141.203.242.65,success,session expired due to inactivity,5ae4ecf8-9427-4f93-8136-fc7004390fb4
+2026-09-05T01:03:26Z,INFO,warehouse-wms,session_timeout,jsmith,store-057,us-central,63.127.52.91,success,session expired due to inactivity,96e174a7-84ad-4fa3-9a15-1b6333ed4947
+2026-09-05T01:11:08Z,INFO,warehouse-wms,password_reset_request,svc-warehouse-bot,warehouse-west,us-west,45.240.229.158,success,password reset requested by user,346f5a64-1a9d-4c30-8fed-ed20ab4319d9
+2026-09-05T01:13:31Z,INFO,warehouse-wms,login_success,mreyes,store-309,eu-west,147.69.198.117,success,user authenticated successfully,1c3ef24c-769e-49c8-bbeb-f2f95c1b8c99
+2026-09-05T01:13:56Z,INFO,ecommerce-admin,login_success,svc-pos-sync,online,global,35.225.51.135,success,user authenticated successfully,3be4b9e6-31ce-4a3e-adfa-bd75d019d499
+2026-09-05T01:14:49Z,INFO,ecommerce-admin,role_changed,lchen,store-057,us-central,22.169.139.32,success,user role changed,a882ba53-5bbb-4a77-a868-4ecaed2d6649
+2026-09-05T01:32:50Z,ERROR,pos-terminal,account_locked,hkhan,store-104,us-east,77.107.213.159,failure,account locked after repeated failed logins,7c10bfb6-659f-4a73-bb8d-529b0660ebfe
+2026-09-05T01:52:28Z,WARN,pos-terminal,mfa_failure,agomez,store-057,us-central,176.20.15.244,failure,MFA code did not match,bce50e23-09f2-49d9-8aff-4dfca7624dde
+2026-09-05T01:58:28Z,INFO,warehouse-wms,login_success,hkhan,store-057,us-central,116.157.13.153,success,user authenticated successfully,54dc5d16-1c6d-455d-ae45-5bf74f982900
+2026-09-05T01:59:20Z,INFO,warehouse-wms,login_success,mreyes,warehouse-west,us-west,197.53.170.35,success,user authenticated successfully,831e8cd5-33bd-4042-a8ec-b7b458a07378
+2026-09-05T02:08:01Z,WARN,warehouse-wms,login_failure,svc-warehouse-bot,store-309,eu-west,57.26.129.241,failure,invalid credentials provided,8d825a18-6612-42fd-8f22-0b46015cdcf1
+2026-09-05T02:20:22Z,WARN,vendor-portal,login_failure,jsmith,store-104,us-east,80.146.8.129,failure,invalid credentials provided,9dad1ffc-3a58-40c6-ae94-2e2d4192648f
+2026-09-05T02:23:20Z,INFO,pos-terminal,login_success,twright,store-104,us-east,48.216.56.199,success,user authenticated successfully,5adbefe1-098c-4289-8bec-e390fcab0e1a
+2026-09-05T02:28:58Z,INFO,vendor-portal,mfa_challenge,beliot,store-309,eu-west,84.16.118.74,success,MFA one-time-passcode sent,61604f06-8c00-492b-973e-d57c1cf06f34
+2026-09-05T02:31:23Z,INFO,warehouse-wms,login_success,svc-pos-sync,store-221,us-west,180.43.184.18,success,user authenticated successfully,d4e84ca9-5d39-48f0-b907-5e74c6a7590f
